@@ -25,3 +25,13 @@
         tableBody.appendChild(row);
       });
     }
+
+
+
+const y= document.getElementById("cc");
+
+if (y) {
+  y.addEventListener("click", function() { 
+        window.location.href = "access.html";
+
+   })}
