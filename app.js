@@ -34,7 +34,7 @@ const x = document.getElementById("bb");
 if (x) {
   x.addEventListener("click", function() {
   const password = prompt("Enter Admin Password to access this page:");
-  const correctPassword = "SecretAdmin123";
+  const correctPassword = "1234";
             
   if (password === correctPassword) {
      window.location.href = "admin.html"; 
