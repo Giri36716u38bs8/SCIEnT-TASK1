@@ -9,9 +9,9 @@
         const row = document.createElement("tr");
         
       
-        const fname = user.fullname || user.fullName || "Missing";
-        const rnum = user.rollno || user.rollNo || "Missing";
-        const cnum = user.contactno || user.contactNo || "Missing";
+        const fname = user.fullname || "Missing";
+        const rnum = user.rollno || "Missing";
+        const cnum = user.contactno ||  "Missing";
         const d1 = user.domain1 || "Missing";
         const d2 = user.domain2 || "Missing";
 
