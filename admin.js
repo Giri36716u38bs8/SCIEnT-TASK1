@@ -8,7 +8,7 @@
       data.forEach(user => {
         const row = document.createElement("tr");
         
-        // Flexible extraction keys to match any variation of your object schema
+      
         const fname = user.fullname || user.fullName || "Missing";
         const rnum = user.rollno || user.rollNo || "Missing";
         const cnum = user.contactno || user.contactNo || "Missing";
